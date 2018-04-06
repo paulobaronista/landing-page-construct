@@ -1,0 +1,139 @@
+.container-off-padding {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.row-off-margin {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.col-off-padding {
+ padding-left: 5px;
+ padding-right: 5px;	
+}
+.right {
+  float: right;
+}
+.form-group {
+  margin-bottom: 10px;
+}
+label {
+  margin-bottom: 1px;
+}
+#home {
+  background: url(../images/banner.jpg) 0% 0 no-repeat;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  float: left;
+  position: relative;
+  background-position: 0% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 9999;
+  padding-bottom: 20px;
+}
+form {
+  background-color: #f3d867;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  margin-top: 50px;
+}
+.form-group {
+  padding-left: 4%;
+  padding-right: 4%;
+}
+h5 {
+  background-color: #0c0d07;
+  text-align: center;
+  font-size: 2rem;
+  color: #f3d867;
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-top: 3.5%;
+  padding-bottom: 3.5%;
+  width: 100% !important;
+  margin-top: 0px;
+}
+button {
+  margin: 0 4% 0 4%;
+}
+footer {
+  background-color: #222;
+  text-align: center;
+  color: #fff;
+  font-size: 1rem;
+  padding-bottom: 0.5%;
+  padding-top: 0.5%;
+  float: left;
+  width: 100%;
+}
+.box-tt {
+  background-color: #ffe05b;
+  width: 100%;
+  padding: 0;
+  border-top: solid 4px #ffcf01;
+  float: left;
+}
+.box-tt p {
+  text-align: center;
+  color: #222;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  padding-top: 10px;
+  font-weight: bold;
+}
+.logo-mobile {
+  width: 100%
+}
+.logo-mobile img {
+  margin: 0 auto;
+  padding: 1px;
+}
+.txt-retorno {
+  height: 350px;
+}
+.txt-retorno h4 {
+  line-height: 30px;
+  text-align: center;
+  width: 100%;
+}
+.valign-wrapper {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.valign-wrapper .valign {
+  display: block;
+}
+.center {
+  text-align: center;
+  vertical-align: middle;
+}
+@media (max-width: 480px) {
+  .form-group {
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+}
+@media (max-width: 768px) {
+  #home {
+  	background: none;
+  }
+  form {
+    margin-top: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .logo-mobile {
+  	display: none;
+  }
+}
